@@ -18,11 +18,14 @@ header{
     background-color: rgb(89, 172, 144);}
 
 
-.nav{
+nav{
     display: flex;
     justify-content: space-between;
     min-width: 300px;
-    color: #f7f7f7;}
+    }
+
+nav a {color: #d1dbe4}
+
 
 .subtitle{
     background-color: #d1dbe4;
@@ -44,6 +47,9 @@ p{background-color: #d1dbe4;
     background-color: #d1dbe4;
     color: #476f95;
     max-width: 1800px;}
+.pics{
+    display:inline-flex;
+}    
    
 .smallpic{
     display: flex;
@@ -55,9 +61,8 @@ p{background-color: #d1dbe4;
     max-width: 600px;
    
 }
-.smallpic:hover{
-    color: transparent
-}
+
+
 .contactme{
     background-color: #d1dbe4;
     color: #476f95;
@@ -70,8 +75,7 @@ footer{
     color: #476f95;
     text-align: block;
 }
-ul{}
-li{}
+
 #aboutme{font-size: 36px;}
 #work{font-size:36px;}
 #contactme{font-size: 36px;}
